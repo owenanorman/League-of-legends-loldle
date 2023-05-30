@@ -1,0 +1,94 @@
+body {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .title-container {
+    display: flex;
+    flex-direction: column; /* Add this line */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .title h2 {
+    font-size: 40px;
+  }
+  
+  .title-container p {
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  textarea {
+    border: none;
+    background-color: #333;
+    color: cyan;
+    height: 50%;
+    margin: 30px;
+    align-self: center;
+  }
+  
+  .square-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; /* Adjust this value as needed */
+    margin: 0 auto;
+    background-color: #444;
+    padding: 20px;
+  }
+  
+  .individual-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; /* Adjust this value as needed */
+    height: 80px; /* Adjust this value as needed */
+    margin: 10px;
+    background-color: #007bff;
+  }
+  
+  .square-text {
+    text-align: center;
+    font-size: 12px; /* Adjust this value as needed */
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust this value as needed */
+  }
+  
+  .form-container input {
+    width: 200px; /* Adjust this value as needed */
+    height: 30px; /* Adjust this value as needed */
+    margin: 10px;
+  
+    margin-right: 10px; /* Adjust this value as needed */
+  }
+  
+  .form-container button {
+    height: 30px; /* Adjust this value as needed */
+    margin: 10px;
+  }
+  
+  /* Additional styles */
+  .square-text {
+    word-wrap: break-word; /* Allow long words to break and wrap */
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .square-container > div.incorrect {
+    background-color: red;
+  }
+  
+   
